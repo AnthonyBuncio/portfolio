@@ -29,7 +29,13 @@ layout: default
 %}{%    endif
 %}{%  endif
 %}{%  unless page.options contains 'minihead' %}
-      <span id="post-date">{{ page.title }}</span><hr
+      <span id="post-date">
+        {%if page.git%}
+          Check out this project on <a href="{{ page.git }}">Github</a>
+        {%else%}
+          {{ page.title }}
+        {%endif%}
+      </span><hr
         style="margin-top:3px;" />{%
       endunless
 %}{%  if page.categories contains 'works' and page.tags %}

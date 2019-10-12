@@ -1,0 +1,8 @@
+I"á<h4 id="summary">Summary</h4>
+
+<p>NBA scoreboard app for the MacOS menubar using Electron.</p>
+
+<p>The app shows the score of current NBA games and refreshes every 15 seconds.</p>
+
+<p>Built with Photon. Uses the NBA API.</p>
+:ET
