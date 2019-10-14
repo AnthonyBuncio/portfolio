@@ -1,7 +1,7 @@
 ---
 priority: 0.5
 title: Baller Menu
-excerpt: NBA scores in the menubar
+excerpt: NBA scores menubar app
 categories: works
 background-image: works-sample.png
 tags:
