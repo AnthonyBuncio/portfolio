@@ -1,6 +1,5 @@
 # Welcome to Jekyll!
 
-
 # In addition to these settings, there is a file _data/tokens-template.yml
 # that you'll want to customize for your site. It's named 'tokens' because
 # that was it's original purpose, but because tokens.yml is .gitexcluded, it's
@@ -16,19 +15,21 @@ description: Full-Stack Web Developer
 owner:
   name: Anthony Buncio # or company name
   url: "http://anthonybuncio.com" # your URL
-first_published: 2019 # if migrating another site, the year of your first publish
-                      # Must be a 4-digit integer year (math is used on it)
+first_published:
+  2021 # if migrating another site, the year of your first publish
+  # Must be a 4-digit integer year (math is used on it)
 url: "http://anthonybuncio.com" # the base hostname & protocol for this site
-baseurl: "" # the subpath of your site, e.g. /blog
-            # Note you'll have to move your robots.txt to the root if you want it used.
-            # And list multiple sitemaps if there are other subdirectories you want indexed
-            # besides this blog.
+baseurl:
+  "" # the subpath of your site, e.g. /blog
+  # Note you'll have to move your robots.txt to the root if you want it used.
+  # And list multiple sitemaps if there are other subdirectories you want indexed
+  # besides this blog.
 lang: en-us # used in HTML lang attributes
 
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: Welcome! 
+  title: Welcome!
   text: I'm Anthony, a full-stack web developer. <br> I am passionate about coding and problem solving while striving to create the best applications possible. <br> I hope you enjoy my portfolio, and don't forget to download a copy of my <a href="/Anthony Buncio Resume.pdf" download>resume</a>!
 # - displayed at the bottom
 closing-head: Thanks for visiting
@@ -108,8 +109,8 @@ permalink: /:categories/:title.html
 markdown: kramdown
 #sass:
 #  style: compressed
-exclude: ['site.bat','compose.rb','README.md']
-include: ['_pages','.htaccess']
+exclude: ["site.bat", "compose.rb", "README.md"]
+include: ["_pages", ".htaccess"]
 defaults:
   - scope:
       path: _pages
